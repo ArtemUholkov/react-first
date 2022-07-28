@@ -1,19 +1,19 @@
-import './app-filter.css';
+import "./app-filter.css";
 
 const AppFilter = () => {
     return (
         <div className="btn-group">
-            <button 
-                className="btn btn-light" 
-                type="button"> All employees
+            <button type="button"
+                    className="btn btn-light">
+                    Все сотрудники
             </button>
-            <button 
-                className="btn btn-outline-light" 
-                type="button"> Ready to promote
+            <button type="button"
+                    className="btn btn-outline-light">
+                    На повышение
             </button>
-            <button 
-                className="btn btn-outline-light" 
-                type="button"> Salary more then 1000$
+            <button type="button"
+                    className="btn btn-outline-light">
+                    З/П больше 1000$
             </button>
         </div>
     )
